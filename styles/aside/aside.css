@@ -1,0 +1,35 @@
+aside .form {
+  padding-top: 30px;
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 90%;
+  margin: auto;
+}
+
+aside .form fieldset {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 10px;
+}
+
+aside .form fieldset input {
+  padding: 10px;
+  margin: 5px 0;
+}
+
+aside .form fieldset button {
+  margin-top: 10px;
+  padding: 10px;
+}
+/*# sourceMappingURL=aside.css.map */

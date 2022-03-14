@@ -1,0 +1,22 @@
+main section {
+  padding: 0 10px;
+}
+
+main section h1 {
+  margin: 20px 0;
+  font-size: 4rem;
+  text-align: center;
+}
+
+main section h2 {
+  font-size: 2rem;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+
+main section p {
+  text-indent: 50px;
+  font-size: 1.2rem;
+  text-align: justify;
+}
+/*# sourceMappingURL=main.css.map */

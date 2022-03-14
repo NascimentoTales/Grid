@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+* a {
+  text-decoration: none;
+}
+
+body .container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: 10vh 1fr 1fr 50vh;
+      grid-template-rows: 10vh 1fr 1fr 50vh;
+      grid-template-areas: "h h h h h" "me m m m a" "me m m m a" "f f f f f";
+}
+
+body .container header {
+  background-color: aqua;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 5;
+  grid-area: h;
+}
+
+body .container menu {
+  background-color: #ff00b3;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  grid-area: me;
+}
+
+body .container main {
+  background-color: #e5ff00;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 3;
+  grid-area: m;
+}
+
+body .container aside {
+  background-color: #33ff00;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 5;
+  grid-area: a;
+}
+
+body .container footer {
+  background-color: #ff5100;
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 5;
+  grid-area: f;
+}
+/*# sourceMappingURL=body.css.map */

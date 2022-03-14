@@ -1,0 +1,22 @@
+header{
+    padding: 10px;
+    .header{
+        max-width: 90%;
+        align-items: center;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        img{
+            width: 50px;
+        }
+        .ItensHeader{
+            display: flex;
+            a.header{
+                margin-left: 20px;
+            }
+            .ItemHeader{
+            }
+        }
+    }
+}
